@@ -81,6 +81,8 @@ body {
   background: var(--color-white);
   border-bottom: 2px solid var(--color-sand);
   padding: var(--space-md) var(--space-xl);
+  padding-top: var(--space-lg);
+  padding-bottom: var(--space-lg);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -101,7 +103,7 @@ body {
 }
 
 .header-logo-img {
-  height: 40px;
+  height: 48px;
   width: auto;
 }
 
@@ -214,8 +216,8 @@ body {
 
 .welcome-logo {
   display: block;
-  margin: 0 auto var(--space-xl);
-  height: 120px;
+  margin: 0 auto var(--space-lg);
+  height: 180px;
   width: auto;
 }
 
@@ -240,7 +242,7 @@ body {
 }
 
 .welcome-page h2 {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   color: var(--color-brown-light);
   font-weight: 400;
   margin-bottom: var(--space-xl);
@@ -822,6 +824,10 @@ body {
 
   .welcome-page {
     padding: var(--space-lg) 0;
+  }
+
+  .welcome-logo {
+    height: 140px;
   }
 
   .welcome-page h1 {
