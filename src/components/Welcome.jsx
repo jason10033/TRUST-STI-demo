@@ -7,6 +7,7 @@ export default function Welcome() {
 
   return (
     <div className="welcome-page">
+      <img src="/logo.png" alt="TRUST-STI" className="welcome-logo" />
       <div className="welcome-badge">{siteContent.subtitle}</div>
       <h1>{welcome.heading}</h1>
       <h2>{welcome.subheading}</h2>

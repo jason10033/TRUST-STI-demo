@@ -19,7 +19,7 @@ export default function Layout({ children }) {
       <header className="app-header">
         <div className="header-content">
           <Link to="/" className="header-logo">
-            TRUST<span>-STI</span>
+            <img src="/logo.png" alt="TRUST-STI" className="header-logo-img" />
           </Link>
           {showProgress && (
             <span style={{ fontSize: 'var(--font-size-sm)', color: 'var(--color-brown-light)' }}>
