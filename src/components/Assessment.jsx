@@ -3,12 +3,6 @@ import { useNavigate } from 'react-router-dom'
 export default function Assessment({ content, responses, onAnswer, onToggleMulti, nextPath, backPath }) {
   const navigate = useNavigate()
 
-  const allAnswered = content.questions.every(q => {
-    const answer = responses[q.id]
-    if (q.type === 'multi_choice') return answer && answer.length > 0
-    return answer !== undefined && answer !== null && answer !== ''
-  })
-
   return (
     <div className="assessment-page">
       <h1>{content.title}</h1>
@@ -48,6 +42,12 @@ export default function Assessment({ content, responses, onAnswer, onToggleMulti
               )
             })}
           </div>
+          <button
+            className="skip-btn"
+            onClick={() => onAnswer(question.id, 'skipped')}
+          >
+            Skip this question
+          </button>
         </div>
       ))}
 
@@ -58,8 +58,6 @@ export default function Assessment({ content, responses, onAnswer, onToggleMulti
         <button
           className="btn btn-primary"
           onClick={() => navigate(nextPath)}
-          disabled={!allAnswered}
-          style={{ opacity: allAnswered ? 1 : 0.5 }}
         >
           {content.nextButton}
         </button>

@@ -25,7 +25,6 @@ export default function Welcome() {
         </div>
       </div>
 
-      <p className="time-estimate">{welcome.timeEstimate}</p>
       <p className="welcome-disclaimer">{welcome.disclaimer}</p>
 
       <button

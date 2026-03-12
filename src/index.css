@@ -224,10 +224,12 @@ body {
 }
 
 .welcome-page h1 {
-  font-size: var(--font-size-3xl);
+  font-size: 3rem;
   color: var(--color-terracotta-dark);
   margin-bottom: var(--space-sm);
   line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .welcome-page h2 {
@@ -257,9 +259,11 @@ body {
 
 .steps-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: var(--space-lg);
   text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .step-card {
@@ -576,6 +580,24 @@ body {
   color: var(--color-brown);
 }
 
+/* Skip Button */
+.skip-btn {
+  display: block;
+  margin-top: var(--space-md);
+  background: none;
+  border: none;
+  color: var(--color-brown-light);
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: var(--font-family);
+  padding: var(--space-xs) 0;
+}
+
+.skip-btn:hover {
+  color: var(--color-terracotta);
+}
+
 /* Recommendations */
 .recommendations-page h1 {
   font-size: var(--font-size-2xl);
@@ -785,22 +807,45 @@ body {
   .recommendation-card, .summary-card { break-inside: avoid; }
 }
 
-/* Responsive */
+/* Responsive — Mobile First */
 @media (max-width: 768px) {
   .main-content {
-    padding: var(--space-lg) var(--space-md);
+    padding: var(--space-md) var(--space-sm);
+  }
+
+  .welcome-page {
+    padding: var(--space-lg) 0;
   }
 
   .welcome-page h1 {
-    font-size: var(--font-size-2xl);
+    font-size: 2.2rem;
+  }
+
+  .welcome-page h2 {
+    font-size: var(--font-size-base);
+  }
+
+  .welcome-description {
+    font-size: var(--font-size-base);
+    padding: 0 var(--space-sm);
   }
 
   .steps-grid {
     grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+  }
+
+  .step-card {
+    padding: var(--space-lg) var(--space-md);
   }
 
   .btn-group {
     flex-direction: column;
+  }
+
+  .btn-lg {
+    width: 100%;
+    justify-content: center;
   }
 
   .progress-step-label {
@@ -812,10 +857,50 @@ body {
     height: 28px;
     font-size: 0.75rem;
   }
+
+  .education-page h1,
+  .assessment-page h1,
+  .recommendations-page h1,
+  .summary-page h1,
+  .share-page h1 {
+    font-size: var(--font-size-xl);
+  }
+
+  .education-section {
+    padding: var(--space-lg);
+  }
+
+  .question-card {
+    padding: var(--space-lg);
+  }
+
+  .option-label {
+    padding: var(--space-md);
+  }
+
+  .recommendation-card {
+    padding: var(--space-lg);
+  }
+
+  .header-content {
+    padding: 0 var(--space-sm);
+  }
+
+  .app-header {
+    padding: var(--space-sm) var(--space-md);
+  }
+
+  .how-it-works h3 {
+    font-size: var(--font-size-lg);
+  }
+
+  .provider-section {
+    padding: var(--space-lg);
+  }
 }
 
 @media (max-width: 480px) {
   .steps-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
