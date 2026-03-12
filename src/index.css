@@ -80,9 +80,7 @@ body {
 .app-header {
   background: var(--color-white);
   border-bottom: 2px solid var(--color-sand);
-  padding: var(--space-md) var(--space-xl);
-  padding-top: var(--space-lg);
-  padding-bottom: var(--space-lg);
+  padding: var(--space-xs) var(--space-xl);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -93,7 +91,8 @@ body {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: var(--space-xl);
 }
 
 .header-logo {
@@ -103,7 +102,7 @@ body {
 }
 
 .header-logo-img {
-  height: 48px;
+  height: 200px;
   width: auto;
 }
 
@@ -216,8 +215,8 @@ body {
 
 .welcome-logo {
   display: block;
-  margin: 0 auto var(--space-lg);
-  height: 180px;
+  margin: 0 auto var(--space-md);
+  height: 400px;
   width: auto;
 }
 
@@ -827,7 +826,7 @@ body {
   }
 
   .welcome-logo {
-    height: 140px;
+    height: 200px;
   }
 
   .welcome-page h1 {
