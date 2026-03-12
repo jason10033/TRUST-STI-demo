@@ -1,0 +1,82 @@
+{
+  "title": "Understanding Your Sexual Health",
+  "intro": "Knowledge is the first step toward taking care of yourself and your community. Here is some important information about sexually transmitted infections (STIs) and how to protect yourself.",
+  "sections": [
+    {
+      "id": "what-are-stis",
+      "title": "What Are STIs?",
+      "icon": "info",
+      "content": "Sexually transmitted infections (STIs) are infections passed from one person to another through sexual contact. Many STIs have no symptoms, which means you can have one and not know it. Testing is the only way to know for sure.",
+      "keyPoints": [
+        "STIs are very common and treatable",
+        "Having an STI is not a reflection of your character or choices",
+        "Many STIs show no symptoms at all",
+        "Regular testing helps protect you and your partners"
+      ]
+    },
+    {
+      "id": "bacterial-stis",
+      "title": "Bacterial STIs",
+      "icon": "bacteria",
+      "content": "Bacterial STIs are caused by bacteria and can be cured with antibiotics. The most common bacterial STIs include chlamydia, gonorrhea, and syphilis.",
+      "details": [
+        {
+          "name": "Chlamydia",
+          "description": "The most commonly reported STI. Often has no symptoms. Can cause serious reproductive health problems if untreated.",
+          "treatable": true
+        },
+        {
+          "name": "Gonorrhea",
+          "description": "Can infect the genitals, rectum, and throat. Symptoms may include unusual discharge or painful urination, but many people have no symptoms.",
+          "treatable": true
+        },
+        {
+          "name": "Syphilis",
+          "description": "Progresses in stages and can cause serious health problems if untreated. Can be passed to babies during pregnancy (congenital syphilis). Rates have been rising significantly in recent years.",
+          "treatable": true
+        }
+      ]
+    },
+    {
+      "id": "why-testing-matters",
+      "title": "Why Testing Matters",
+      "icon": "shield",
+      "content": "Testing is a routine part of taking care of your health, like checking your blood pressure or getting a dental exam. Early detection means early treatment, which protects your health and the health of your partners and future children.",
+      "keyPoints": [
+        "Testing is quick, simple, and usually painless",
+        "Early treatment prevents complications",
+        "Testing during pregnancy protects your baby from congenital syphilis",
+        "Knowing your status empowers you to make informed decisions",
+        "Testing is a sign of strength and self-care"
+      ]
+    },
+    {
+      "id": "prevention",
+      "title": "Prevention and Protection",
+      "icon": "heart",
+      "content": "There are many ways to reduce your risk of getting or spreading STIs. What works best depends on your situation and preferences.",
+      "keyPoints": [
+        "Condoms and dental dams reduce risk when used correctly",
+        "Regular testing helps catch infections early",
+        "Open communication with partners supports everyone's health",
+        "PrEP (pre-exposure prophylaxis) can prevent HIV",
+        "Vaccines are available for HPV and hepatitis B",
+        "Reducing number of partners lowers risk"
+      ]
+    },
+    {
+      "id": "community-health",
+      "title": "Sexual Health in Our Communities",
+      "icon": "community",
+      "content": "Sexual health is part of overall wellness, connected to our physical, emotional, and spiritual well-being. Caring for our sexual health is one way we care for ourselves, our families, and our communities. Many factors affect our community's health, including access to healthcare, economic challenges, and historical trauma. TRUST-STI is here to support you in navigating these challenges with culturally respectful resources.",
+      "keyPoints": [
+        "Taking care of your sexual health is an act of community care",
+        "You deserve compassionate, judgment-free healthcare",
+        "Your healthcare team is here to support you",
+        "Talking about sexual health openly can help reduce stigma"
+      ]
+    }
+  ],
+  "nextButton": "Continue to Assessment",
+  "note": "Remember: This information is educational. Your healthcare provider can answer specific questions about your health."
+}

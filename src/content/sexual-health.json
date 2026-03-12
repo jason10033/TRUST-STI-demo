@@ -1,0 +1,142 @@
+{
+  "title": "Sexual Health Assessment",
+  "description": "The following questions help us understand your sexual health needs so we can provide personalized recommendations. Your answers are confidential.",
+  "reassurance": "There are no wrong answers. Answer as honestly as you feel comfortable.",
+  "questions": [
+    {
+      "id": "sh_01",
+      "redcap_field": "sh_tested_past_year",
+      "type": "single_choice",
+      "text": "Have you been tested for any STIs in the past 12 months?",
+      "options": [
+        { "value": "yes", "label": "Yes" },
+        { "value": "no", "label": "No" },
+        { "value": "unsure", "label": "I'm not sure" },
+        { "value": "prefer_not", "label": "Prefer not to answer" }
+      ]
+    },
+    {
+      "id": "sh_02",
+      "redcap_field": "sh_num_partners",
+      "type": "single_choice",
+      "text": "In the past 12 months, how many sexual partners have you had?",
+      "options": [
+        { "value": "0", "label": "None" },
+        { "value": "1", "label": "1" },
+        { "value": "2-4", "label": "2 to 4" },
+        { "value": "5+", "label": "5 or more" },
+        { "value": "prefer_not", "label": "Prefer not to answer" }
+      ]
+    },
+    {
+      "id": "sh_03",
+      "redcap_field": "sh_condom_use",
+      "type": "single_choice",
+      "text": "How often do you use condoms or other barrier methods during sexual activity?",
+      "options": [
+        { "value": "always", "label": "Always" },
+        { "value": "most", "label": "Most of the time" },
+        { "value": "sometimes", "label": "Sometimes" },
+        { "value": "rarely", "label": "Rarely" },
+        { "value": "never", "label": "Never" },
+        { "value": "na", "label": "Not applicable" }
+      ]
+    },
+    {
+      "id": "sh_04",
+      "redcap_field": "sh_symptoms",
+      "type": "multi_choice",
+      "text": "Have you experienced any of the following in the past 6 months? (Select all that apply)",
+      "options": [
+        { "value": "discharge", "label": "Unusual discharge" },
+        { "value": "pain_urination", "label": "Pain during urination" },
+        { "value": "sores", "label": "Sores or bumps in the genital area" },
+        { "value": "pain_sex", "label": "Pain during sexual activity" },
+        { "value": "bleeding", "label": "Unusual bleeding" },
+        { "value": "none", "label": "None of the above" },
+        { "value": "prefer_not", "label": "Prefer not to answer" }
+      ]
+    },
+    {
+      "id": "sh_05",
+      "redcap_field": "sh_pregnant_planning",
+      "type": "single_choice",
+      "text": "Are you currently pregnant or planning to become pregnant?",
+      "options": [
+        { "value": "pregnant", "label": "Yes, I am currently pregnant" },
+        { "value": "planning", "label": "Yes, I am planning to become pregnant" },
+        { "value": "no", "label": "No" },
+        { "value": "unsure", "label": "I'm not sure" },
+        { "value": "prefer_not", "label": "Prefer not to answer" }
+      ]
+    },
+    {
+      "id": "sh_06",
+      "redcap_field": "sh_sti_history",
+      "type": "single_choice",
+      "text": "Have you ever been diagnosed with an STI?",
+      "options": [
+        { "value": "yes", "label": "Yes" },
+        { "value": "no", "label": "No" },
+        { "value": "unsure", "label": "I'm not sure" },
+        { "value": "prefer_not", "label": "Prefer not to answer" }
+      ]
+    },
+    {
+      "id": "sh_07",
+      "redcap_field": "sh_knowledge_confidence",
+      "type": "single_choice",
+      "text": "How confident do you feel in your knowledge about STI prevention and testing?",
+      "options": [
+        { "value": "very", "label": "Very confident" },
+        { "value": "somewhat", "label": "Somewhat confident" },
+        { "value": "not_very", "label": "Not very confident" },
+        { "value": "not_at_all", "label": "Not at all confident" }
+      ]
+    },
+    {
+      "id": "sh_08",
+      "redcap_field": "sh_comfort_provider",
+      "type": "single_choice",
+      "text": "How comfortable do you feel talking to your healthcare provider about sexual health?",
+      "options": [
+        { "value": "very", "label": "Very comfortable" },
+        { "value": "somewhat", "label": "Somewhat comfortable" },
+        { "value": "not_very", "label": "Not very comfortable" },
+        { "value": "not_at_all", "label": "Not at all comfortable" }
+      ]
+    },
+    {
+      "id": "sh_09",
+      "redcap_field": "sh_motivation_testing",
+      "type": "single_choice",
+      "text": "How motivated do you feel to get tested for STIs today?",
+      "options": [
+        { "value": "very", "label": "Very motivated" },
+        { "value": "somewhat", "label": "Somewhat motivated" },
+        { "value": "not_very", "label": "Not very motivated" },
+        { "value": "not_at_all", "label": "Not at all motivated" },
+        { "value": "already_tested", "label": "I've already been tested recently" }
+      ]
+    },
+    {
+      "id": "sh_10",
+      "redcap_field": "sh_barriers",
+      "type": "multi_choice",
+      "text": "What, if anything, has made it difficult for you to get STI testing? (Select all that apply)",
+      "options": [
+        { "value": "stigma", "label": "Worry about what others might think" },
+        { "value": "privacy", "label": "Concerns about privacy" },
+        { "value": "access", "label": "Difficulty getting to a clinic" },
+        { "value": "cost", "label": "Cost of testing" },
+        { "value": "time", "label": "Not enough time" },
+        { "value": "fear", "label": "Fear of results" },
+        { "value": "didnt_know", "label": "Didn't know testing was recommended" },
+        { "value": "none", "label": "Nothing has made it difficult" },
+        { "value": "prefer_not", "label": "Prefer not to answer" }
+      ]
+    }
+  ],
+  "nextButton": "Continue to Well-Being Assessment",
+  "backButton": "Back"
+}

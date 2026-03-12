@@ -1,0 +1,134 @@
+{
+  "title": "Well-Being Assessment",
+  "description": "Your overall well-being affects your health in many ways. These questions help us understand what resources and support might be helpful for you. Your answers are confidential.",
+  "reassurance": "These questions are not a judgment. They help us connect you with the right resources.",
+  "questions": [
+    {
+      "id": "sdoh_01",
+      "redcap_field": "sdoh_healthcare_access",
+      "type": "single_choice",
+      "text": "How easy is it for you to get to a healthcare appointment when you need one?",
+      "options": [
+        { "value": "very_easy", "label": "Very easy" },
+        { "value": "somewhat_easy", "label": "Somewhat easy" },
+        { "value": "somewhat_difficult", "label": "Somewhat difficult" },
+        { "value": "very_difficult", "label": "Very difficult" }
+      ]
+    },
+    {
+      "id": "sdoh_02",
+      "redcap_field": "sdoh_insurance",
+      "type": "single_choice",
+      "text": "Do you currently have health insurance or healthcare coverage (including IHS)?",
+      "options": [
+        { "value": "yes_ihs", "label": "Yes, through Indian Health Service (IHS)" },
+        { "value": "yes_other", "label": "Yes, other insurance" },
+        { "value": "both", "label": "Both IHS and other insurance" },
+        { "value": "no", "label": "No" },
+        { "value": "unsure", "label": "I'm not sure" }
+      ]
+    },
+    {
+      "id": "sdoh_03",
+      "redcap_field": "sdoh_food_security",
+      "type": "single_choice",
+      "text": "In the past 12 months, how often did you worry about having enough food?",
+      "options": [
+        { "value": "never", "label": "Never" },
+        { "value": "sometimes", "label": "Sometimes" },
+        { "value": "often", "label": "Often" },
+        { "value": "always", "label": "Always" },
+        { "value": "prefer_not", "label": "Prefer not to answer" }
+      ]
+    },
+    {
+      "id": "sdoh_04",
+      "redcap_field": "sdoh_housing",
+      "type": "single_choice",
+      "text": "In the past 12 months, have you had concerns about having stable housing?",
+      "options": [
+        { "value": "no", "label": "No concerns" },
+        { "value": "some", "label": "Some concerns" },
+        { "value": "serious", "label": "Serious concerns" },
+        { "value": "prefer_not", "label": "Prefer not to answer" }
+      ]
+    },
+    {
+      "id": "sdoh_05",
+      "redcap_field": "sdoh_transportation",
+      "type": "single_choice",
+      "text": "Do you have reliable transportation to get to medical appointments?",
+      "options": [
+        { "value": "yes", "label": "Yes, always" },
+        { "value": "usually", "label": "Usually" },
+        { "value": "sometimes", "label": "Sometimes" },
+        { "value": "rarely", "label": "Rarely or never" }
+      ]
+    },
+    {
+      "id": "sdoh_06",
+      "redcap_field": "sdoh_safety",
+      "type": "single_choice",
+      "text": "Do you feel safe in your current relationship(s)?",
+      "options": [
+        { "value": "yes", "label": "Yes" },
+        { "value": "sometimes", "label": "Sometimes" },
+        { "value": "no", "label": "No" },
+        { "value": "na", "label": "Not currently in a relationship" },
+        { "value": "prefer_not", "label": "Prefer not to answer" }
+      ]
+    },
+    {
+      "id": "sdoh_07",
+      "redcap_field": "sdoh_mental_health",
+      "type": "single_choice",
+      "text": "In the past 2 weeks, how often have you felt down, depressed, or hopeless?",
+      "options": [
+        { "value": "not_at_all", "label": "Not at all" },
+        { "value": "several_days", "label": "Several days" },
+        { "value": "more_than_half", "label": "More than half the days" },
+        { "value": "nearly_every_day", "label": "Nearly every day" },
+        { "value": "prefer_not", "label": "Prefer not to answer" }
+      ]
+    },
+    {
+      "id": "sdoh_08",
+      "redcap_field": "sdoh_substance_use",
+      "type": "single_choice",
+      "text": "In the past 12 months, have you used alcohol or other substances in a way that concerned you?",
+      "options": [
+        { "value": "no", "label": "No" },
+        { "value": "yes", "label": "Yes" },
+        { "value": "unsure", "label": "I'm not sure" },
+        { "value": "prefer_not", "label": "Prefer not to answer" }
+      ]
+    },
+    {
+      "id": "sdoh_09",
+      "redcap_field": "sdoh_social_support",
+      "type": "single_choice",
+      "text": "Do you have someone you can talk to about personal or health concerns?",
+      "options": [
+        { "value": "yes_many", "label": "Yes, several people" },
+        { "value": "yes_one", "label": "Yes, at least one person" },
+        { "value": "no", "label": "No, not really" },
+        { "value": "prefer_not", "label": "Prefer not to answer" }
+      ]
+    },
+    {
+      "id": "sdoh_10",
+      "redcap_field": "sdoh_cultural_connection",
+      "type": "single_choice",
+      "text": "How connected do you feel to your cultural community and traditions?",
+      "options": [
+        { "value": "very", "label": "Very connected" },
+        { "value": "somewhat", "label": "Somewhat connected" },
+        { "value": "not_very", "label": "Not very connected" },
+        { "value": "not_at_all", "label": "Not at all connected" },
+        { "value": "prefer_not", "label": "Prefer not to answer" }
+      ]
+    }
+  ],
+  "nextButton": "See My Recommendations",
+  "backButton": "Back"
+}

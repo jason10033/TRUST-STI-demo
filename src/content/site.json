@@ -1,0 +1,48 @@
+{
+  "title": "TRUST-STI",
+  "subtitle": "Your Sexual Health, Your Decision",
+  "welcome": {
+    "heading": "Welcome to TRUST-STI",
+    "subheading": "A trusted resource for your sexual health journey",
+    "description": "TRUST-STI is a confidential tool designed to help you learn about sexually transmitted infections, understand your personal health needs, and prepare for conversations with your healthcare provider. This tool was developed in partnership with tribal communities to provide culturally respectful, empowering health information.",
+    "howItWorks": {
+      "heading": "How It Works",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Learn",
+          "description": "Review brief, clear information about sexual health and STI prevention."
+        },
+        {
+          "number": 2,
+          "title": "Reflect",
+          "description": "Answer confidential questions about your health and well-being."
+        },
+        {
+          "number": 3,
+          "title": "Receive",
+          "description": "Get personalized recommendations for testing and support services."
+        },
+        {
+          "number": 4,
+          "title": "Share",
+          "description": "Choose to discuss your results with your provider or share resources with friends."
+        }
+      ]
+    },
+    "disclaimer": "This tool is for educational purposes and does not replace medical advice. All information you provide is confidential.",
+    "startButton": "Get Started",
+    "timeEstimate": "About 15-20 minutes"
+  },
+  "footer": {
+    "text": "TRUST-STI was developed in collaboration with the Great Plains Tribal Leaders Health Board and tribal community partners.",
+    "privacyNote": "Your responses are confidential and stored securely."
+  },
+  "modules": [
+    { "id": "education", "label": "Learn" },
+    { "id": "sexual-health", "label": "Sexual Health" },
+    { "id": "sdoh", "label": "Well-Being" },
+    { "id": "recommendations", "label": "Your Plan" },
+    { "id": "share", "label": "Share" }
+  ]
+}

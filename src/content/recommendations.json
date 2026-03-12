@@ -1,0 +1,103 @@
+{
+  "title": "Your Personalized Recommendations",
+  "intro": "Based on your responses, here are some recommendations to support your health and well-being. You can share these with your healthcare provider.",
+  "categories": {
+    "sti_testing": {
+      "title": "STI Testing",
+      "icon": "test",
+      "recommendations": {
+        "high_priority": {
+          "heading": "We Recommend Testing Today",
+          "message": "Based on your responses, STI testing is recommended. Testing is quick, confidential, and an important step in caring for your health. Your healthcare provider can help you decide which tests are right for you.",
+          "actions": [
+            "Ask your provider about testing for chlamydia, gonorrhea, and syphilis",
+            "Testing is usually a simple urine test or blood draw",
+            "Results are typically available within a few days"
+          ]
+        },
+        "moderate_priority": {
+          "heading": "Testing Is Recommended",
+          "message": "Regular STI testing is an important part of your healthcare. Even if you feel healthy, testing helps ensure early detection and treatment.",
+          "actions": [
+            "Talk to your provider about which STI tests are appropriate for you",
+            "Consider making testing part of your routine health visits",
+            "Your provider can answer any questions about the testing process"
+          ]
+        },
+        "pregnancy_priority": {
+          "heading": "Testing Is Important for Your Pregnancy",
+          "message": "STI testing during pregnancy is especially important to protect your health and your baby's health. Syphilis screening is particularly critical, as it can be passed to your baby and cause serious complications.",
+          "actions": [
+            "Ask your provider about syphilis screening if you haven't been tested",
+            "Testing and treatment during pregnancy protects your baby",
+            "Your prenatal care team can coordinate all recommended testing"
+          ]
+        },
+        "routine": {
+          "heading": "Keep Up the Good Work",
+          "message": "It sounds like you've been staying on top of your sexual health. Continue to get tested regularly and talk openly with your healthcare provider.",
+          "actions": [
+            "Continue regular testing as part of your routine care",
+            "Stay informed about STI prevention",
+            "Encourage friends and partners to get tested too"
+          ]
+        }
+      }
+    },
+    "prevention": {
+      "title": "Prevention Resources",
+      "icon": "shield",
+      "recommendations": {
+        "condom_use": {
+          "heading": "Barrier Method Support",
+          "message": "Condoms and other barrier methods are effective at reducing STI risk. If you'd like to use them more consistently, your healthcare provider can help.",
+          "show_when": "condom_use_low"
+        },
+        "prep_info": {
+          "heading": "HIV Prevention (PrEP)",
+          "message": "PrEP is a medication that can prevent HIV. Ask your provider if PrEP might be right for you.",
+          "show_when": "multiple_partners"
+        }
+      }
+    },
+    "support_services": {
+      "title": "Support Services",
+      "icon": "support",
+      "recommendations": {
+        "mental_health": {
+          "heading": "Mental Health Support",
+          "message": "Your emotional well-being matters. Support services are available and seeking help is a sign of strength.",
+          "show_when": "mental_health_concern"
+        },
+        "substance_use": {
+          "heading": "Substance Use Support",
+          "message": "If you're concerned about substance use, confidential support services are available. You don't have to face this alone.",
+          "show_when": "substance_concern"
+        },
+        "safety": {
+          "heading": "Safety Resources",
+          "message": "Everyone deserves to feel safe. Confidential support is available 24/7.",
+          "show_when": "safety_concern",
+          "urgent": true
+        },
+        "basic_needs": {
+          "heading": "Community Resources",
+          "message": "There are resources available to help with food, housing, transportation, and other needs in your community.",
+          "show_when": "basic_needs_concern"
+        }
+      }
+    }
+  },
+  "providerSection": {
+    "title": "Talk to Your Provider",
+    "message": "Your healthcare provider is here to help. You can share this summary with them to start the conversation. Remember, they are required to keep your information confidential.",
+    "tips": [
+      "You can share your TRUST-STI summary with your provider",
+      "It's okay to ask questions about anything you don't understand",
+      "You have the right to make your own decisions about your health",
+      "If you're not comfortable with your provider, you can ask to see someone else"
+    ]
+  },
+  "nextButton": "View Full Summary",
+  "backButton": "Back"
+}

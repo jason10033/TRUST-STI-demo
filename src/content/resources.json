@@ -1,0 +1,119 @@
+{
+  "title": "Resources & Referrals",
+  "description": "These resources are available to you and your community.",
+  "categories": [
+    {
+      "id": "sti_testing",
+      "title": "STI Testing & Treatment",
+      "resources": [
+        {
+          "name": "Your Local IHS Clinic",
+          "description": "Contact your local Indian Health Service clinic for STI testing and treatment services.",
+          "type": "local"
+        },
+        {
+          "name": "Great Plains Tribal Leaders Health Board",
+          "description": "Resources and programs for tribal health.",
+          "url": "https://www.gptlhb.org",
+          "type": "organization"
+        },
+        {
+          "name": "CDC STI Information",
+          "description": "Comprehensive information about sexually transmitted infections.",
+          "url": "https://www.cdc.gov/sti",
+          "type": "information"
+        }
+      ]
+    },
+    {
+      "id": "hiv_prevention",
+      "title": "HIV Prevention & PrEP",
+      "resources": [
+        {
+          "name": "PrEP Information",
+          "description": "Learn about pre-exposure prophylaxis (PrEP) for HIV prevention.",
+          "url": "https://www.cdc.gov/hiv/basics/prep.html",
+          "type": "information"
+        }
+      ]
+    },
+    {
+      "id": "mental_health",
+      "title": "Mental Health Support",
+      "resources": [
+        {
+          "name": "988 Suicide & Crisis Lifeline",
+          "description": "Free, confidential support 24/7. Call or text 988.",
+          "phone": "988",
+          "type": "crisis"
+        },
+        {
+          "name": "SAMHSA National Helpline",
+          "description": "Free referrals and information for mental health and substance use.",
+          "phone": "1-800-662-4357",
+          "type": "helpline"
+        }
+      ]
+    },
+    {
+      "id": "substance_use",
+      "title": "Substance Use Support",
+      "resources": [
+        {
+          "name": "SAMHSA National Helpline",
+          "description": "Free, confidential treatment referrals and information, available 24/7.",
+          "phone": "1-800-662-4357",
+          "type": "helpline"
+        },
+        {
+          "name": "White Bison Wellbriety Movement",
+          "description": "Culturally based healing resources for Native communities.",
+          "url": "https://whitebison.org",
+          "type": "cultural"
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Safety & Support",
+      "resources": [
+        {
+          "name": "National Domestic Violence Hotline",
+          "description": "Confidential support 24/7. Call, text, or chat.",
+          "phone": "1-800-799-7233",
+          "type": "crisis"
+        },
+        {
+          "name": "StrongHearts Native Helpline",
+          "description": "Culturally appropriate support for Native Americans affected by domestic violence and dating violence.",
+          "phone": "1-844-762-8483",
+          "type": "crisis"
+        }
+      ]
+    },
+    {
+      "id": "basic_needs",
+      "title": "Community Resources",
+      "resources": [
+        {
+          "name": "211 Information Line",
+          "description": "Connect to local resources for food, housing, transportation, and more. Dial 2-1-1.",
+          "phone": "211",
+          "type": "helpline"
+        }
+      ]
+    },
+    {
+      "id": "youth",
+      "title": "Youth Sexual Health",
+      "resources": [
+        {
+          "name": "Healthy Native Youth - VOICES",
+          "description": "Sexual health resources created for and by Native youth.",
+          "url": "https://www.healthynativeyouth.org",
+          "type": "information"
+        }
+      ]
+    }
+  ]
+}
